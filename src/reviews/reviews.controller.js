@@ -1,4 +1,4 @@
-const service = require("./reviews.services");
+const service = require("./reviews.service");
 const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
 
 async function reviewExists (req, res, next) {
